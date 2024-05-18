@@ -8,13 +8,23 @@
         tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1/10."
-        android:textSize="15dp"
+        android:text="Загадка"
+        android:textSize="25dp"
         android:textStyle="bold"
-        android:layout_marginTop="140dp"
-        android:layout_marginStart="10dp"/>
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"/>
 
     <RadioButton
         android:layout_width="wrap_content"
